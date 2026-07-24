@@ -1,8 +1,8 @@
 pub mod settings;
 
 use anyhow::Result;
-use sqlx::MySqlPool;
 use settings::PersistenceSettings;
+use sqlx::MySqlPool;
 
 pub use sqlx::MySqlPool as DbPool;
 
