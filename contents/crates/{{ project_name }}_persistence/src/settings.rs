@@ -31,5 +31,5 @@ fn url_from_env() -> String {
     ) {
         return format!("mysql://{}:{}@{}:{}/{}", user, pass, host, port, db);
     }
-    "mysql://dev:dev@localhost/{{ prefix_name }}_{{ suffix_name }}".to_string()
+    "mysql://dev:dev@localhost/{{ project_name }}".to_string()
 }
